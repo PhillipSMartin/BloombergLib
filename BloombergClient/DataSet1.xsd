@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StockQuotes" msprop:Generator_TableClassName="StockQuotesDataTable" msprop:Generator_TableVarName="tableStockQuotes" msprop:Generator_TablePropName="StockQuotes" msprop:Generator_RowDeletingName="StockQuotesRowDeleting" msprop:Generator_RowChangingName="StockQuotesRowChanging" msprop:Generator_RowEvHandlerName="StockQuotesRowChangeEventHandler" msprop:Generator_RowDeletedName="StockQuotesRowDeleted" msprop:Generator_UserTableName="StockQuotes" msprop:Generator_RowChangedName="StockQuotesRowChanged" msprop:Generator_RowEvArgName="StockQuotesRowChangeEvent" msprop:Generator_RowClassName="StockQuotesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" msprop:Generator_UserColumnName="Symbol" type="xs:string" />
+              <xs:element name="LastPrice" msprop:Generator_ColumnVarNameInTable="columnLastPrice" msprop:Generator_ColumnPropNameInRow="LastPrice" msprop:Generator_ColumnPropNameInTable="LastPriceColumn" msprop:Generator_UserColumnName="LastPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="Time" msprop:Generator_ColumnVarNameInTable="columnTime" msprop:Generator_ColumnPropNameInRow="Time" msprop:Generator_ColumnPropNameInTable="TimeColumn" msprop:Generator_UserColumnName="Time" type="xs:duration" minOccurs="0" />
+              <xs:element name="Closed" msprop:Generator_ColumnVarNameInTable="columnClosed" msprop:Generator_ColumnPropNameInRow="Closed" msprop:Generator_ColumnPropNameInTable="ClosedColumn" msprop:Generator_UserColumnName="Closed" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="ClosingPrice" msprop:Generator_ColumnVarNameInTable="columnClosingPrice" msprop:Generator_ColumnPropNameInRow="ClosingPrice" msprop:Generator_ColumnPropNameInTable="ClosingPriceColumn" msprop:Generator_UserColumnName="ClosingPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="Bid" msprop:Generator_ColumnVarNameInTable="columnBid" msprop:Generator_ColumnPropNameInRow="Bid" msprop:Generator_ColumnPropNameInTable="BidColumn" msprop:Generator_UserColumnName="Bid" type="xs:double" minOccurs="0" />
+              <xs:element name="Ask" msprop:Generator_ColumnVarNameInTable="columnAsk" msprop:Generator_ColumnPropNameInRow="Ask" msprop:Generator_ColumnPropNameInTable="AskColumn" msprop:Generator_UserColumnName="Ask" type="xs:double" minOccurs="0" />
+              <xs:element name="Delta" msprop:Generator_ColumnVarNameInTable="columnDelta" msprop:Generator_ColumnPropNameInRow="Delta" msprop:Generator_ColumnPropNameInTable="DeltaColumn" msprop:Generator_UserColumnName="Delta" type="xs:double" minOccurs="0" />
+              <xs:element name="Gamma" msprop:Generator_ColumnVarNameInTable="columnGamma" msprop:Generator_ColumnPropNameInRow="Gamma" msprop:Generator_ColumnPropNameInTable="GammaColumn" msprop:Generator_UserColumnName="Gamma" type="xs:double" minOccurs="0" />
+              <xs:element name="Theta" msprop:Generator_ColumnVarNameInTable="columnTheta" msprop:Generator_ColumnPropNameInRow="Theta" msprop:Generator_ColumnPropNameInTable="ThetaColumn" msprop:Generator_UserColumnName="Theta" type="xs:double" minOccurs="0" />
+              <xs:element name="ImpliedVol" msprop:Generator_ColumnVarNameInTable="columnImpliedVol" msprop:Generator_ColumnPropNameInRow="ImpliedVol" msprop:Generator_ColumnPropNameInTable="ImpliedVolColumn" msprop:Generator_UserColumnName="ImpliedVol" type="xs:double" minOccurs="0" />
+              <xs:element name="Vega" msprop:Generator_ColumnVarNameInTable="columnVega" msprop:Generator_ColumnPropNameInRow="Vega" msprop:Generator_ColumnPropNameInTable="VegaColumn" msprop:Generator_UserColumnName="Vega" type="xs:double" minOccurs="0" />
+              <xs:element name="Mid" msprop:Generator_ColumnVarNameInTable="columnMid" msprop:Generator_ColumnPropNameInRow="Mid" msprop:Generator_ColumnPropNameInTable="MidColumn" msprop:Generator_UserColumnName="Mid" type="xs:double" minOccurs="0" />
+              <xs:element name="Subscribed" msprop:Generator_ColumnVarNameInTable="columnSubscribed" msprop:Generator_ColumnPropNameInRow="Subscribed" msprop:Generator_ColumnPropNameInTable="SubscribedColumn" msprop:Generator_UserColumnName="Subscribed" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Open" msprop:Generator_ColumnVarNameInTable="columnOpen" msprop:Generator_ColumnPropNameInRow="Open" msprop:Generator_ColumnPropNameInTable="OpenColumn" msprop:Generator_UserColumnName="Open" type="xs:double" minOccurs="0" />
+              <xs:element name="PrevClose" msprop:Generator_ColumnVarNameInTable="columnPrevClose" msprop:Generator_ColumnPropNameInRow="PrevClose" msprop:Generator_ColumnPropNameInTable="PrevCloseColumn" msprop:Generator_UserColumnName="PrevClose" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StockQuotes" />
+      <xs:field xpath="mstns:Symbol" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
